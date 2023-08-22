@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* home */
+.text {
+    font-family: 'Orbitron', sans-serif;
+
+}
+.stroke {
+    -webkit-text-stroke-color: pu;
+}
+* {
+    /* outline: 1px solid white; */
+}
+.shape {
+    clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
+}
+.shaper {
+    clip-path: polygon(0 0, 100% 0, 93% 100%, 0% 100%);
+}
+.bg{
+    background-image: url('https://s8.uupload.ir/files/bg_g2no.png');
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.fade {
+background: linear-gradient(180deg, rgba(24, 23, 26, 0.00) 0%, #18171A 100%);
+}
+/* category */
+.category {
+    background-image:url('https://s8.uupload.ir/files/image_10_15ht.png') ;
+    background-size: cover;
+    background-position: center top ;
+    background-repeat: no-repeat;
+}
+.fade-normal {
+background: linear-gradient(0deg, #18171A 5%, rgba(217, 217, 217, 0.01) 50%);
+}
+.active-fade {
+    background: linear-gradient(0deg, #18171A 30%, rgba(217, 217, 217, 0.01) 60%);
+}
+/* footer */
+.footer {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('https://s8.uupload.ir/files/rectangle_49_e4r0.png'), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shapeQ {
+    clip-path: polygon(6% 0, 100% 0%, 94% 100%, 0% 100%);
+}

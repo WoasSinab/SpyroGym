@@ -1,0 +1,23 @@
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 1;
+  background: rgba(255, 85, 0, 0.345);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  width: 45px;
+  background: rgba(255, 85, 0, 0.888);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.swiper-pagination-horizontal {
+  margin-bottom: 10px;
+}
