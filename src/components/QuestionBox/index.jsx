@@ -12,7 +12,7 @@ const QuestionBox = () => {
   return (
     <main>
       <div className='flex flex-col justify-center items-center py-16'>
-        <h1 className='text-white font-semibold text-4xl text-center'>سوالات متداول</h1>
+        <h1 className='text-white font-semibold text-4xl text-center'>Frequently Asked Question</h1>
 
         <div className='w-4/5 my-16'>
           {accordionItems.map((item, index) => (

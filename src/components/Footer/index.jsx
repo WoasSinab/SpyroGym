@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
         {/* social */}
         <div className="flex items-center gap-4">
-          <span>
+          <a href='#'>
             <svg
               width="35"
               height="35"
@@ -28,8 +28,8 @@ const Footer = () => {
                 fill-opacity="0.7"
               />
             </svg>
-          </span>
-          <span>
+          </a>
+          <a href='#'>
             <svg
               width="35"
               height="35"
@@ -43,8 +43,8 @@ const Footer = () => {
                 fill-opacity="0.7"
               />
             </svg>
-          </span>
-          <span>
+          </a>
+          <a href='#'>
             <svg
               width="35"
               height="35"
@@ -65,8 +65,8 @@ const Footer = () => {
                 fill-opacity="0.7"
               />
             </svg>
-          </span>
-          <span>
+          </a>
+          <a href='#'>
             <svg
               width="35"
               height="35"
@@ -80,7 +80,7 @@ const Footer = () => {
                 fill-opacity="0.7"
               />
             </svg>
-          </span>
+          </a>
         </div>
         {/* line */}
         <span className="w-3/4 bg-slate-50/60 h-0.5"></span>

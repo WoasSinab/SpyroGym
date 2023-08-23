@@ -14,7 +14,7 @@ const FeedBack = () => {
       }}
     >
       {/* header */}
-      <h1 className="text-white font-semibold text-3xl sm:text-4xl py-10 px-8 text-center">
+      <h1 className="text-white font-semibold text-3xl sm:text-4xl py-12 px-8 text-center">
         Client’s Feedback
       </h1>
 
@@ -33,10 +33,10 @@ const FeedBack = () => {
       >
         {data.map((item) => (
           <SwiperSlide
-            className=" h-[26rem] bg-black/50 flex flex-col border-b-[10px] border-orange-600 items-center justify-end pb-8 mb-8"
+            className="h-[26rem] bg-black/50 flex flex-col border-b-[10px] border-orange-600 items-center justify-end pb-8 mb-8"
             key={item.id}
           >
-            {/* feddback  */}
+            {/* feedback  */}
             <p className="sm:text-xl flex items-center text-base tracking-wide capitalize leading-8 h-full px-4 sm:px-10">
               {item.Text}
             </p>
